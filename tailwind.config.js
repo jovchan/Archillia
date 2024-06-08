@@ -10,7 +10,7 @@ export default {
         '1.6': '0.325rem',
       },
       margin: {
-        '4vw': '4vw',
+        '4vw': '2vw',
       }
     },
   },
