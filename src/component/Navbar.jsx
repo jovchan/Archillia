@@ -12,14 +12,14 @@ export default function Navbar() {
           onClick={() => setIsOpen(!isOpen)}
         >
           <div
-            className={`h-0.5 w-5 my-1 rounded-full bg-black transition ease transform duration-300 ${
+            className={`h-0.5 w-5 my-1 rounded-full bg-black transition ease transform duration-800 ${
               isOpen
                 ? "rotate-45 translate-y-1.6  group-hover:opacity-100 "
                 : " group-hover:opacity-100"
             }`}
           />
           <div
-            className={`h-0.5 w-5 my-1 rounded-full bg-black transition ease transform duration-300 ${
+            className={`h-0.5 w-5 my-1 rounded-full bg-black transition ease transform duration-800 ${
               isOpen
                 ? "-rotate-45 -translate-y-1.6  group-hover:opacity-100 "
                 : " group-hover:opacity-100"
