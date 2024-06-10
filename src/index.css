@@ -2,7 +2,65 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: poppins-med;
+  src: url(./assets/font/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: poppins-bold;
+  src: url(./assets/font/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: poppins-reg;
+  src: url(./assets/font/Poppins-Regular.ttf);
+}
+
+.pop-reg{
+  font-family: poppins-reg;
+}
+.pop-med{
+  font-family: poppins-med;
+}
+.pop-bold{
+  font-family: poppins-bold;
+}
+
 body{
-  margin-left: 8%;
-  margin-right: 8%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.cuk{
+  display: block;
+  height: 100%;
+  border: 1px solid orabnge;
+  animation: spin_words 6s infinite;
+}
+
+.words{
+  overflow: hidden;
+}
+
+@keyframes spin_words{
+  23%{
+    transform: translateY(0%);
+  }
+  33%{
+    transform: translateY(-100%);
+  }
+  
+  60%{
+    transform: translateY(-100%);
+  }
+  66%{
+    transform: translateY(-200%);
+  }
+
+  90%{
+    transform: translateY(-200%);
+  }
+  100%{
+    transform: translateY(-300%);
+  }
+
 }

@@ -4,22 +4,22 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="flex nav justify-between mt-4vw">
-        <div className="text-red-600 -z-10">tes</div>
+    <div className="flex nav h-12 justify-between items-center mt-4vw">
+        <div className={`z-50 pop-bold tracking-wide transition-all duration-1000 ${isOpen ? 'text-white' : 'text-black'}`}>Archillia</div>
       <div>
         <button
-          className="flex z-50 flex-col h-12 w-12 transition-all justify-center items-center group shadow-md bg-white rounded-full"
+          className="flex z-50 flex-col h-10 w-10 transition-all justify-center items-center group shadow-md bg-white rounded-full"
           onClick={() => setIsOpen(!isOpen)}
         >
           <div
-            className={`h-0.5 w-6 my-1 rounded-full bg-black transition ease transform duration-300 ${
+            className={`h-0.5 w-5 my-1 rounded-full bg-black transition ease transform duration-300 ${
               isOpen
                 ? "rotate-45 translate-y-1.6  group-hover:opacity-100 "
                 : " group-hover:opacity-100"
             }`}
           />
           <div
-            className={`h-0.5 w-6 my-1 rounded-full bg-black transition ease transform duration-300 ${
+            className={`h-0.5 w-5 my-1 rounded-full bg-black transition ease transform duration-300 ${
               isOpen
                 ? "-rotate-45 -translate-y-1.6  group-hover:opacity-100 "
                 : " group-hover:opacity-100"
