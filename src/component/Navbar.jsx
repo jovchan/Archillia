@@ -28,7 +28,7 @@ export default function Navbar() {
         </button>
         <div
           style={{
-            transition: "transform 0.5s ease-in",
+            transition: "transform 0.8s ease-in",
             backgroundColor: "black",
             position: "fixed",
             top: "-2500px",

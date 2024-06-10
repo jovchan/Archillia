@@ -64,3 +64,25 @@ body{
   }
 
 }
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.fade-in {
+  animation: fadeIn 0.2s forwards;
+  animation-delay: 0.5s;
+}
+.fade-in2 {
+  animation: fadeIn 0.2s forwards;
+  animation-delay: 0.7s;
+}
+.fade-in3 {
+  animation: fadeIn 0.2s forwards;
+  animation-delay: 0.9s;
+}
+
+.carousel .carousel-status {
+  margin-bottom: 0;
+}
