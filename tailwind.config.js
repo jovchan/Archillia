@@ -13,12 +13,12 @@ export default {
         '4vw': '2vw',
       },
       animation: {
-        "loop-scroll": "loop-scroll 100s linear infinite",
+        "loop-scroll": "loop-scroll 14s linear infinite",
       },
       keyframes: {
         "loop-scroll": {
           from: { transform: "translateX(0)" },
-          to: { transform: "translateX(-100%)" }
+          to: { transform: "translateX(-25.15%)" }
         }
       },
       width: {
