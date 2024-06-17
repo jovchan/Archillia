@@ -1,5 +1,6 @@
 import Navbar from "./component/Navbar.jsx";
 import Hero from "./component/Hero.jsx";
+import About from "./component/About.jsx";
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div>
         <Navbar />
         <Hero />
+        <About />
     </div>
   )
 }
